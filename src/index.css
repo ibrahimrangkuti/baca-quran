@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@300;400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply container py-4 font-ibm bg-[#f0f0f0];
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p,
+span {
+  @apply selection:bg-black selection:text-white;
+}
+
+.card-border {
+  border: 2px solid black;
+  box-shadow: 10px 10px black;
+}
